@@ -6,13 +6,32 @@ using System.Threading.Tasks;
 
 namespace TallerNro1
 {
-    class Class1
+    class Persona
     {
-        int edad;
+          
+        public int edad { get => edad; set => value; } // forma larga
 
+        public string nombre { get; set; } //forma abreviada 
+        public string direccion { get => direccion; set => value; } //forma larga 
+
+
+        /* OTRA FORMA:
+         * 
+        public string direccion;
+        public string getNombreDireccion()
+        {
+            return this.direccion;
+        }
+
+
+        */
+
+        /*Forma de conseguir edad
+        
         public int getEdad()
         {
             return this.edad;
         }
+        */
     }
 }
