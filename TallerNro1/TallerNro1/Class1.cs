@@ -8,5 +8,11 @@ namespace TallerNro1
 {
     class Class1
     {
+        int edad;
+
+        public int getEdad()
+        {
+            return this.edad;
+        }
     }
 }
